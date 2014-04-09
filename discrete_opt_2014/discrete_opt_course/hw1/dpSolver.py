@@ -31,8 +31,8 @@ class MyClass(object):
             itemToSelect = self.itemsToPic[indexOfItemsToSelect]
             weightOfExtraItem = itemToSelect.weight
             
-            if w <= maxCap:
-                return max( self.getComputeVal(maxCap, indexOfItemsToSelect-1) , v + self.getComputeVal(maxCap-w, indexOfItemsToSelect-1) )
-            else:
-                return self.getComputeVal(maxCap, indexOfItemsToSelect-1)
+        #    if w <= maxCap:
+        #        return max( self.getComputeVal(maxCap, indexOfItemsToSelect-1) , v + self.getComputeVal(maxCap-w, indexOfItemsToSelect-1) )
+        #    else:
+        #        return self.getComputeVal(maxCap, indexOfItemsToSelect-1)
 

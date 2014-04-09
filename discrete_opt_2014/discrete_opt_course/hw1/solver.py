@@ -5,8 +5,11 @@ from collections import namedtuple
 Item = namedtuple("Item", ['index', 'value', 'weight'])
 
 def solve_it(input_data):
-    import dynamicProg
-    return dynamicProg.solve_it_via_rules(input_data)
+    #import rulesSolver
+    #return rulesSolver.solve_it_via_rules(input_data)
+    
+    import branchAndBoundSolver
+    return branchAndBoundSolver.solve_it_via_bb(input_data)
       
 
 def solve_it_orig(input_data):
